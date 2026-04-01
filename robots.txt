@@ -1,0 +1,12 @@
+# Allow all robots
+User-agent: *
+Allow: /
+
+# Disallow admin panel
+Disallow: /admin
+
+# Sitemap location
+Sitemap: https://tucasapicasso.com.ar/sitemap.xml
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1
