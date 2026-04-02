@@ -1,6 +1,7 @@
 #!/usr/bin/env pwsh
 
-$token = 'vcp_0ZP0y4LqNK0vxZlTvuACD29N7PglR4Nf0cId2QKcgKgPEJwVRR0L8MKW'
+# ⚠️ IMPORTANTE: Reemplaza esto con tu token de Vercel desde https://vercel.com/account/tokens
+$token = 'TU_TOKEN_VERCEL_AQUI'
 $projectId = 'prj_qNQC6eGOVAZpRwnOmG2fmH5pHbuD'
 $url = "https://api.vercel.com/v11/projects/$projectId/redeploy"
 $headers = @{
