@@ -1,1 +1,4 @@
 .vercel
+
+# Local preview tooling (no deploy)
+.claude/
