@@ -3,9 +3,10 @@
   "configurations": [
     {
       "name": "tucasapicasso",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "C:\\Users\\Userio\\Desktop\\tucasapicasso-web"],
-      "port": 8080
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "C:\\Users\\Userio\\Desktop\\tucasapicasso-web\\.claude\\serve.ps1"],
+      "port": 8181,
+      "autoPort": true
     }
   ]
 }
